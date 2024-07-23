@@ -1,0 +1,26 @@
+span.spe {
+  background-color: #ffeed2;
+  padding: 3px;
+}
+.divpd {
+  padding: 10px;
+}
+.divbg {
+  background-color: #efefef;
+}
+.rbdr {
+  border-right: 1px solid #cccccc;
+}
+hr {
+  margin: 0rem;
+}
+.personDetbg {
+  background-color: #dff8f6;
+  color: #58b8b1;
+  border-radius: 5px;
+}
+.imgbdr {
+  border: 1px solid #ccc;
+  margin: 20px;
+  height: 180px;
+}

@@ -1,0 +1,254 @@
+.college-name {
+  font-size: 1.4vw;
+  color: #000 !important;
+  text-align: center !important;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  line-height: 1.5vw;
+}
+
+.second-line {
+  justify-content: space-between;
+  text-align: center;
+  color: #000 !important;
+  padding: 0px !important;
+  line-height: 0.8vw;
+  font-size: 0.8vw;
+}
+
+.address-line {
+  justify-content: space-between;
+  text-align: center;
+  color: #000 !important;
+  padding: 0px !important;
+  line-height: 0.9vw;
+  font-size: 0.8vw;
+}
+
+.third-line {
+  justify-content: space-between;
+  text-align: center;
+  color: #000 !important;
+  padding: 0px !important;
+  line-height: 0.9vw;
+  font-size: 0.8vw;
+}
+
+.label-bold {
+  font-size: inherit;
+  font-weight: bold;
+  color: #000 !important;
+  white-space: nowrap;
+}
+
+/* .second-copy {
+  font-weight: bold;
+  text-align: right;
+  margin-top: -30px;
+  margin-right: 30px;
+} */
+
+.receipt-copy {
+  position: relative;
+  height: 20px;
+  margin-top: 5px;
+  padding: 0px;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  border-top: 1px solid #000;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.line:first-child {
+  transform: translateY(-50%);
+}
+
+.line:last-child {
+  transform: translateY(50%);
+}
+
+.receipt-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white; /* Ensure text is visible */
+  padding: 0 10px; /* Adjust padding as needed */
+  font-size: 17px;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 6px;
+}
+
+.with-design-print-table > :not(caption) > * > * {
+  padding: 2px 5px !important;
+}
+.with-design-print-table {
+  font: inherit;
+  padding: 10px 0px 10px 0px !important;
+  vertical-align: center !important;
+  color: #000 !important;
+}
+.with-design-print-table th {
+  background-color: #fff !important;
+  white-space: nowrap;
+  color: #000 !important;
+  padding: 7px 4px !important;
+  border-top: 1px solid #000 !important;
+  border-bottom: 1px solid #000 !important;
+}
+.with-design-print-table td {
+  color: #000 !important;
+  vertical-align: top;
+  font-weight: 400;
+  padding: 2px 5px !important;
+}
+
+.bonafide-completion-label-bold {
+  font-weight: bold;
+  color: #71736e !important;
+  white-space: nowrap;
+  font-size: 19px;
+}
+
+.bonafide-completion-bold {
+  font-weight: bold;
+  color: #71736e !important;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bonafide-completion-content {
+  font-size: 19px;
+  color: #71736e !important;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bonafide-completion-print {
+  font-size: 19px;
+  color: #000 !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.course-completion-label-bold {
+  font-weight: bold;
+  color: #6c6599 !important;
+  white-space: nowrap;
+}
+
+.course-receipt-copy {
+  position: relative;
+  height: 3px;
+  margin-top: 3px;
+  padding: 0px;
+}
+
+.course-completion-receipt-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #30583e; /* Ensure text is visible */
+  padding: 0 10px; /* Adjust padding as needed */
+  font-size: 17px;
+  color: white !important;
+  border: 1px solid #30583e;
+  border-radius: 6px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.course-completion-content {
+  font-size: 1.2vw;
+  color: #6c6599 !important;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.course-completion-print {
+  font-size: 1.2vw;
+  color: #000 !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.about-college {
+  justify-content: space-between;
+  padding: 0px !important;
+  color: #000 !important;
+}
+.text-size {
+  font-size: 17px;
+  color: #000 !important;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+.shadow {
+  box-shadow: 5px 5px 10px rgba(163, 10, 10, 0.5);
+}
+
+.tc-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 0 10px;
+  font-size: 17px;
+  color: darkblue !important;
+  border: 1px solid #000;
+  box-shadow: 2 15px 10px rgba(207, 37, 190, 0.1);
+  border-radius: 6px;
+}
+.tc-table td {
+  vertical-align: top;
+}
+.tc-table tr {
+  height: 60px;
+}
+
+.print-logo {
+  width: 6vw;
+  margin-right: -7vw;
+}
+@media print {
+  .college-name {
+    font-size: 19px;
+    line-height: 21px;
+  }
+  .course-completion-content {
+    font-size: 19px;
+  }
+  .course-completion-print {
+    font-size: 19px;
+  }
+  .second-line {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .address-line {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .third-line {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .print-logo {
+    width: 100px;
+  }
+}
